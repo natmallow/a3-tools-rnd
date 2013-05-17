@@ -1,0 +1,3 @@
+Download link for set up tools - http://www.lfd.uci.edu/~gohlke/pythonlibs/
+
+Downloaded python 2.7 dsaf as
