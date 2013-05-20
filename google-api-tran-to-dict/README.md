@@ -1,3 +1,6 @@
+<style>
+    .small{font-size:10px; color:#0f0;}
+</style>
 The purpose of this app is to import from a multi-column spreadsheet from Google drive is for a file that looks like this:
 
 The spreadsheet:
@@ -26,7 +29,12 @@ TODO: Create a user select based on the available locals
 TODO: Create a grouping output   
 
 SETUP:  
-REQ: <a href="http://http://www.python.org/getit/releases/2.7/" target="_blank">Python 2.7</a>  
+REQ:  
+<a href="http://http://www.python.org/getit/releases/2.7/" target="_blank">Python 2.7 <span class="small">External Link</span></a>,  
+<a href="https://code.google.com/p/httplib2/" target="_blank">httplib2 External Link</a>, <a href="https://github.com/natmallow/a3-tools-rnd/blob/master/libs/httplib2-0.8.zip" target="_blank">httplib2 (httplib2-0.8.zip)</a>,  
+<a href="https://code.google.com/p/google-api-python-client/" target="_blank">google-api-python-client External Link</a>, <a href="https://github.com/natmallow/a3-tools-rnd/blob/master/libs/google-api-python-client-1.1.zip" target="_blank">google-api-python-client-1.1</a>,  
+<a href="http://www.lfd.uci.edu/~gohlke/pythonlibs/" target="_blank">setuptools External Link</a>, <a href="https://github.com/natmallow/a3-tools-rnd/blob/master/libs/distribute-0.6.40.win-amd64-py2.7.exe" target="_blank">setuptools distribute-0.6.40.win-amd64-py2.7</a>,  
+
   
 
 
