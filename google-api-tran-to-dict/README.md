@@ -1,4 +1,4 @@
-The purpose of this app is to import from a multi column spreadsheet from google drive is for a file that looks like this:
+The purpose of this app is to import from a multi-column spreadsheet from Google drive is for a file that looks like this:
 
 The spreadsheet:
 col[0] : UID  
@@ -7,7 +7,7 @@ col[2] : key
 col[3] : en-us (value)  
 col[4] : another language local (value)  
 
-EXPEXTED RESULTS:
+EXPECTED RESULTS:
 {<key>: <en-us>(values based on local default en-us)} 
 ie.
     {  
@@ -26,4 +26,7 @@ TODO: Create a user select based on the available locals
 TODO: Create a grouping output   
 
 SETUP:  
-REQ: Python 2.7  
+REQ: <a href="http://http://www.python.org/getit/releases/2.7/" target="_blank">Python 2.7</a>  
+  
+
+
