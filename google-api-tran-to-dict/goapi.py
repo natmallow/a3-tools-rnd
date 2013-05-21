@@ -121,9 +121,14 @@ def download_file(service, drive_file):
   Returns:
     File's content if successful, None otherwise.
   """
-  #download_url = drive_file.get('downloadUrl')
-  download_url = drive_file.get('exportLinks')['application/pdf']
-  print download_url,"<--"
+  try:
+    #download_url = drive_file.get('downloadUrl')
+    download_url = drive_file.get('exportLinks')['application/pdf']
+  except NoneType:
+    print 'You do not have access to this google document'
+    return None
+
+  #print download_url,"<--"
   if download_url:
     download_url = download_url[:-4] + "=csv"
     resp, content = service._http.request(download_url)
